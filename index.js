@@ -6,7 +6,7 @@ function CriarJanela(){
   const janela = new BrowserWindow({
     width:900,//Largura do programa
     height:600,//Altura do programa
-    frame:false,//Barra em cima do Programa
+    frame:true,//Barra em cima do Programa
     autoHideMenuBar: true,//Esconder barra de programa
     webPreferences: {
       nodeintegration: true//adicionar node na aplicação]
