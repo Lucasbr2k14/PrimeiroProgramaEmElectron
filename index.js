@@ -9,7 +9,7 @@ function CriarJanela(){
     frame:true,//Barra em cima do Programa
     autoHideMenuBar: true,//Esconder barra de programa
     webPreferences: {
-      nodeintegration: true//adicionar node na aplicação]
+      nodeintegration: false//adicionar node na aplicação]
     }
   
   })
